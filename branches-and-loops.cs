@@ -13,6 +13,10 @@ else
   Console.WriteLine("Or the first number is not equal to the second");
 }
 
+// brackets not required when there is only one condition
+if (index != -1)
+  Console.WriteLine($"The name {names[index]} is at index {index}");
+
 // While loops - Checks a condition and executes code while the condition is true.
 int counter = 0;
 while (counter < 10)
