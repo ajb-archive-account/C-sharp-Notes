@@ -48,9 +48,8 @@ Console.WriteLine(c / d); // 0.3333333333333333333333333333
 
 //
 
-Math.PI // is a public const double. E.g: Radius of a circle
+Math.PI; // is a public const double. E.g: Radius of a circle
 
 double Radius = 2.5;
 double area = (Radius * Radius) * Math.PI;
 Console.WriteLine(area); // 19.6349540849362
-
