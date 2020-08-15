@@ -12,10 +12,10 @@ foreach (var name in names)
 
 // modify the List
 Console.WriteLine();
-names.Add("Bill"); //to the end of the list
+names.Add("Bill"); // to the end of the list
 names.Add("George");
 names.Remove("Ana");
-foreach (var name in names)
+foreach (var name in names) // var name, you are declaring the variable name of the elements.
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
