@@ -6,7 +6,7 @@
 
 There is a number of .NET implementations depending on what you are working on. The
 
-color is
+color is 
 
 
 ## .NET Core

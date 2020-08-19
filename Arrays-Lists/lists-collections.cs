@@ -1,5 +1,6 @@
 // creat a new variable, List<type> (List<T>) 
 var names = new List<string> { "<name>", "Ana", "Felipe" };
+
 // for each "name" in names, print to the console
 // NOTE: <name> will default to item if not present
 foreach (var name in names)
@@ -12,7 +13,7 @@ foreach (var name in names)
 
 // modify the List
 Console.WriteLine();
-names.Add("Bill"); // to the end of the list
+// // names.Add("Bill"); // to the end of the list
 names.Add("George");
 names.Remove("Ana");
 foreach (var name in names) // var name, you are declaring the variable name of the elements.
@@ -46,7 +47,6 @@ names.Sort();
 foreach (var name in names);
 
 Console.WriteLine($"Hello {name.ToUpper()}!");
-
 // Hello < NAME > !
 // Hello BILL!
 // Hello FELIPE!
